@@ -5,7 +5,7 @@ import time
 import numpy as np
 from collections import Counter
 
-import tree
+from tree import Tree
 
 class Boosting:
     def __init__(self, X, y, n_estimators=10, n_samples=1024):
